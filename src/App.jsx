@@ -1,4 +1,6 @@
 function App(){
-  return <div>App</div>;
+ return <main id="main">
+   <Card/>
+  </main>;
 }
 export default App;
