@@ -1,5 +1,8 @@
 function Card() {
-  return <div></div>;
+  return (
+    <div className="card" >
+      <div className="card-container"></div>
+    </div>
+  );
 }
-
 export default Card;
