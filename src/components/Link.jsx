@@ -1,7 +1,7 @@
 function Link({name , url }){
     return (
 
-    <li className="list-t-item" >
+    <li className="list-item" >
    <a href={url}>{name}</a>
     </li>
  );   

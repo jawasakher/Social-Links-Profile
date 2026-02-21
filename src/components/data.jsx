@@ -2,8 +2,8 @@ export const user = {
     id:1,
     img:"jawa.jpg",
     name:"Jawa Sakher",
-    location:"Denmark, Meadow Road",
-    job:`"Front-end developer and avid reader."`,
+    location:"Denmark,Meadow Road",
+    job:`" Front-end developer and avid reader. "`,
 
     links: [
         {

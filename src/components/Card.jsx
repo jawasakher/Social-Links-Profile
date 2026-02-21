@@ -7,11 +7,12 @@ function Card() {
       <div className="card-container">
         <img src={img} alt={name} />
         <h1>{name}</h1>
+        <h3>{location}</h3>
         <h2>{job}</h2>
         <ul className="list-items">
           {links.map((item) =>{
-          const { id, name, url, }=item;
-          return <Link key={id} name={name} url={url}/>;
+          const { id, name, url,location }=item;
+          return <Link key={id} name={name} location={location} url={url}/>;
         })}
 
         </ul>

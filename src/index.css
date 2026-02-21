@@ -9,12 +9,81 @@
   --green-700:hsl(0, 0%, 20%);
   --green-800:hsl(0, 0%, 12%);
   --green-900:hsl(0, 0%, 8%);
- 
+ --baby-blue:#00bfff;
+ --sky-blue:#87cefa;
 }
 body{
   font-size: 14px;
   font-family: "Inter",serif;
 }
 #main{
+ background-color: #0079a2;
+ height: 100vh;
+ 
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card .card-container{
+  background-color:#0088b5;
+  width: 350px;
+  text-align: center;
+  padding: 20px 50px;
+  border-radius: 10px;
+  color: #fff;
+}
+.card .card-container img{
+  border-radius: 50%;
+  width: 100px;
+  border-bottom: 10px solid #0088b5;
   
+}
+.card .card-container h1 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: var(--green);
+}
+
+.card .card-container h3{
+    margin-top: 10px;
+  font-size:20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: var(--green-900);
+}
+.card .card-container h2{
+   margin-top: 19px;
+   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sans-serif; 
+  color: var(--green-800);
+
+}
+.card .card-container .list-items{
+
+  margin-top: 30px;
+  list-style: none;
+}
+.card .card-container .list-items .list-item {
+margin: 15px;
+}
+.card .card-container .list-items .list-item a{
+  display: block;
+  background-color:rgb(218, 247, 210);
+  color: #000;
+  padding: 10px 0;
+  border-radius: 9px;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 600;
+}
+.card .card-container .list-items .list-item a:hover{
+  color:var(--green-900);
+  background-color: var(--green);
 }
