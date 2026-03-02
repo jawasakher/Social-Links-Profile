@@ -1,16 +1,127 @@
-# React + Vite
+# Social Links Profile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Latest-purple?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, scalable, and production-ready Social Links Profile application built with React and Vite.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the ESLint configuration
+This project demonstrates modern frontend engineering principles including:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Component-based architecture
+- Clean and maintainable code structure
+- Responsive UI design
+- Optimized production builds
+- Accessibility-aware implementation
+
+The application presents a professional profile card with interactive social media links in a minimal and visually polished layout.
+
+---
+
+## Tech Stack
+
+- React 19
+- Vite
+- Modern JavaScript (ES Modules)
+- CSS
+- ESLint
+
+---
+
+## Architecture
+
+The project follows a structured and scalable folder organization:
+
+Social-Links-Profile/
+│
+├── public/
+│   └── social-preview.png
+│
+├── src/
+│   ├── components/
+│   │   └── Card.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+The architecture ensures:
+
+- Clear separation of concerns
+- Reusable UI components
+- Maintainable codebase
+- Scalable structure for future expansion
+
+---
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/jawasakher/Social-Links-Profile.git
+Install dependencies:
+
+npm install
+Run development server:
+
+npm run dev
+Local server runs at:
+
+http://localhost:5173
+---
+
+## Production Build
+
+Generate optimized production assets:
+
+npm run build
+Preview production build:
+
+npm run preview
+---
+
+## Engineering Focus
+
+This project emphasizes:
+
+- Performance optimization through Vite bundling
+- Clean UI implementation
+- Responsive design principles
+- Structured component abstraction
+- Readable and scalable frontend architecture
+
+---
+
+## Future Enhancements
+
+- TypeScript migration
+- Unit testing integration
+- CI/CD pipeline setup
+- Accessibility audit improvements
+- Dark mode support
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Author
+
+Jawa Sakher  
+GitHub: https://github.com/jawasakher
+
+---
+
+This project reflects a foundational approach toward building production-grade frontend applications using modern tooling and engineering discipline.
