@@ -7,7 +7,9 @@
 
 
 A modern, scalable, and production-ready Social Links Profile application built with React and Vite.
-
+<p align="center">
+  <img src="social-preview.png" alt="Social Links Profile Preview" width="700"/>
+</p>
 ---
 
 ## Overview
